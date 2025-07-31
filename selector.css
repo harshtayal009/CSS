@@ -1,0 +1,55 @@
+/* universal selector */
+*
+{
+  font-family: 'Courier New', Courier, monospace;
+}
+/* element selector */
+h3
+{
+    color: purple;
+}
+/* id selector */
+#login
+{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+#signup
+{
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* class selector */
+.upvote
+{
+    color: green;
+    font-weight: bolder;
+}
+/* descendent selector */
+p a
+{
+    color:orangered;
+    text-decoration: none;
+}
+/* adjacent sibling combinator */
+p +h3
+{
+    text-decoration: double underline red;
+}
+/* child combinator */
+div > input
+{
+    background-color: lightgray;
+}
+/* pseudo class -> :hover :active :checked :nth-of-type */
+a:hover
+{
+    color: rgb(0, 255, 123);
+    text-decoration: underline;
+}
+button:active
+{
+    background-color: lightcoral;
+}
