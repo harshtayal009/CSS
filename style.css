@@ -1,4 +1,29 @@
-h1
+/* h1
 {
     background-color: bisque;
+} */
+ /* text align -> center right left  justify*/
+ h1
+{
+    text-align: center;
+}
+p
+{
+    text-align: left;
+}
+/* font weight -> 100 to 900  bolder lighter   like 100 200 3000 .... */
+h2
+{
+    font-weight: 500;
+}
+/* text decoration -> underline over line linethrough */
+h3
+{
+    text-decoration: underline red;
+}
+/* line height ->    letter spacing*/
+p
+{
+    line-height: 2;
+    letter-spacing: 2px;
 }
