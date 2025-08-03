@@ -1,0 +1,39 @@
+div
+{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid black ;
+    background-color: #76a874;
+    margin: 40px;
+}
+div:nth-of-type(2n)
+{
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n)
+{
+    background-color:#ebb02d;
+}
+/* Transform */
+#box1
+{
+    transform: rotate(20deg);
+}
+#box2
+{
+    transform: translate(500px, 50px);
+}
+#box3
+{
+    transform: scale(2);
+}
+#box4
+{
+    transform: skew(20deg, 20deg);
+}
+#box5
+{
+    border: none;
+    box-shadow: 4px 5px 10px rgba(27, 26, 26, 0.5);
+}
