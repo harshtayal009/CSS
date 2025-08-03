@@ -1,0 +1,17 @@
+div
+{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition-property: margin-top;
+    transition-timing-function: ease-in-out;
+}
+ div:hover
+{
+    background-color: rgba(255, 0, 0, 0.5); /* Red color 50% transparent */
+    margin-top: 400px;
+} 
