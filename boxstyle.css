@@ -6,4 +6,17 @@ div
     border-radius: 6px;
     padding: 50px;
     margin: 50px;
+    /* alpha value -> 0 t0 1   0 is transparen 1 is dark  like 0.2 0.3 0.4 ..... */
+    background-color: rgba(255, 0, 0, 0.9);
+}
+#box
+{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 255, 0, 0.9);
+    opacity: 0.8;
 }
